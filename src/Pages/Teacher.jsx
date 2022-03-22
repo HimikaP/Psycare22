@@ -1,5 +1,7 @@
 import React from 'react'
-import BarChart from '../components/BarChart'
+import ArChart from '../components/Chart/ArChart'
+import LChart from '../components/Chart/LChart'
+import PiChart from '../components/Chart/PiChart'
 
 import Footer from '../components/Footer'
 import NavBar from '../components/NavBar'
@@ -13,8 +15,16 @@ const Teacher = () => {
       <NavBar text="Teacher DashBoard" />
       <SideBar />
       
-      <section className='small-section'><BarChart /></section>
-      <section className='small-section'>sdafsadfsadfas</section>
+      <section className='small-section'>
+        <div className="left-chart"><LChart /></div>
+        
+        <div className="right-chart">
+          <PiChart />
+        </div>
+        </section>
+      <section className='small-section'><div className="AreaChart">
+        <ArChart />
+      </div></section>
 
       <Footer style={{marginLeft:"20vw",width:"80vw"}}/>
     </div>

@@ -7,7 +7,7 @@ const SideBar = () => {
     <div className='sidebar'>
         <h2>Students</h2>
         {students.map((student)=> {
-           return <StudentCard name={student.name} grade={student.class} />
+           return <StudentCard key={student.name} name={student.name} grade={student.class} />
         } )}
 
     </div>

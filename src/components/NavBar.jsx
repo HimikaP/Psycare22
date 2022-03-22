@@ -3,7 +3,7 @@ import './navbar.css'
 const NavBar = (props) => {
   return (
     <nav>
-    <img src="//unsplash.it/500/500" alt="" />
+    <img src={'../public/Images/logo-psycare.png'} alt="" />
     <h1>{props.text}</h1>
     <div>
       <a href="/">LogOut</a>

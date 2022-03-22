@@ -6,12 +6,9 @@ const HomePage = () => {
       <NavBar text="PsyCare"/>
     <section>
       <div class="left">
-        <h2>Before they sold out readymade gluten</h2>
+        <h2>PsyCare</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
-          fugiat aliquid rem est culpa voluptatem molestiae molestias, aliquam
-          natus doloribus vel sint earum nobis rerum doloremque! Ab ut
-          temporibus incidunt!
+          Paving the path for towards inclusive technology , better adaptability and fostering an overall holsitic approach to tech
         </p>
         <div class="buttons">
           <a href="/">Login</a>
@@ -19,7 +16,7 @@ const HomePage = () => {
         </div>
       </div>
       <div class="right">
-        <img src="//unsplash.it/600/600" alt="" />
+        <img src="./SVG/opening-image.svg" alt="" />
       </div>
     </section>
     </div>
