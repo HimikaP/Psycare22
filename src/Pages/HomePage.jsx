@@ -11,12 +11,12 @@ const HomePage = () => {
           Paving the path for towards inclusive technology , better adaptability and fostering an overall holsitic approach to tech
         </p>
         <div class="buttons">
-          <a href="/">Login</a>
-          <a href="/">Sign Up</a>
+          <a href="/who">Login</a>
+          <a href="/who">Sign Up</a>
         </div>
       </div>
       <div class="right">
-        <img src="./SVG/opening-image.svg" alt="" />
+        <img src="//unsplash.it/500/500" alt="" />
       </div>
     </section>
     </div>

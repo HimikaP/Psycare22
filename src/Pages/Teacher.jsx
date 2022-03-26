@@ -2,6 +2,8 @@ import React from 'react'
 import ArChart from '../components/Chart/ArChart'
 import LChart from '../components/Chart/LChart'
 import PiChart from '../components/Chart/PiChart'
+import RadChart from '../components/Chart/RadChart'
+import Example from '../components/Chart/TestChart'
 
 import Footer from '../components/Footer'
 import NavBar from '../components/NavBar'
@@ -14,7 +16,13 @@ const Teacher = () => {
     <div>
       <NavBar text="Teacher DashBoard" />
       <SideBar />
-      
+      <section className='small-section'>
+        <div className='big-table'>
+          {/* <RadChart /> */}
+          <Example />
+          <RadChart />
+        </div>
+      </section>
       <section className='small-section'>
         <div className="left-chart"><LChart /></div>
         

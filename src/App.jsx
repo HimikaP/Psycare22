@@ -4,15 +4,19 @@ import HomePage from "./Pages/HomePage";
 import Parent from "./Pages/Parent";
 import Who from "./Pages/Who";
 import Teacher from "./Pages/Teacher";
+import SelectTest from './Pages/SelectTest';
+import AgoraVcTest from './components/Agora-VC/AgoraVcTest';
+import AgoraTester from './components/Agora-VC/AgoraTester';
 const App = () => {
   return <div>
     <Router>
       <Switch>
         <Route path="/" exact>
-          <Who />
+        <HomePage />
         </Route>
-        <Route path="/home" exact>
-          <HomePage />
+        <Route path="/who" exact>
+          
+          <Who />
         </Route>
         <Route path="/parent" exact>
           <Parent />
@@ -23,7 +27,17 @@ const App = () => {
         <Route path="/who" exact>
           <Who />
         </Route>
+        <Route path="/tests" exact>
+          <SelectTest />
+        </Route>
+        <Route path="/vc-agora" exact>
+          <AgoraVcTest />
+        </Route>
+        <Route path="/vc-tester" exact>
+          <AgoraTester />
+        </Route>
         <Redirect to="/" />
+        
       </Switch>
 
     </Router>

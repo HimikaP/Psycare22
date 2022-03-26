@@ -8,7 +8,7 @@ const Who = () => {
     <div>
         <NavBar text="PsyCare" />
         <section>
-            <Link to='/home' className='links'>
+            <Link to='/parent' className='links'>
             <div class="starting-cards"><img src="//unsplash.it/500/500" alt="" />
             <h2>Parent</h2>
             </div>
